@@ -1,11 +1,10 @@
 #!/bin/bash
 #This script prints system info
-echo "Welcome to bash script."
 
-
-echo "uptime is: $(uptime)"
-
-echo "Memory usage is: $(free -m)"
-
-echo "Disk usage is: $(df -h)"
+cat <<EOF
+Welcome to bash script.
+uptime is: $(uptime)
+Memory usage is: $(free -m)
+Disk usage is: $(df -h)
+EOF
 
