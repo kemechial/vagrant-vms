@@ -1,0 +1,5 @@
+# $vi /etc/fstab and add tlhe last line
+
+file-system-id:/ efs-mount-point efs _netdev,noresvport,tls,accesspoint=access-point-id 0 0
+
+fs-05e0209b54615b3cd /var/www/html/images efs _netdev,noresvport,tls,accesspoint=fsap-0c4d8825876e91af0 0 0
